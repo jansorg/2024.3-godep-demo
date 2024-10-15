@@ -1,0 +1,14 @@
+<idea-plugin package="dev.ja.godepdemo">
+  <id>dev.ja.godepdemo.go-dep-demo</id>
+
+  <name>Go-dep-demo</name>
+  <vendor></vendor>
+
+  <dependencies>
+    <plugin id="org.jetbrains.plugins.go"/>
+  </dependencies>
+
+  <actions>
+    <action class="dev.ja.godepdemo.godepdemo.GoFileTypeAction" id="godepdemo" text="Go FileType Action"/>
+  </actions>
+</idea-plugin>
